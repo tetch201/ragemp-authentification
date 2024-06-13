@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form class="reg-form">
+            <input id="reg-name" type="text" placeholder="Имя"/>
+            <input id="reg-mail" type="text" placeholder="Почта"/>
+            <input id="reg-pass" type="password" placeholder="Пароль"/>
+            <button type="button" onclick="createAccount()">Регистрация</button>
+            <a href="#" onclick="showLog()">Окно авторизации</a>
+        </form>
+        <form class="log-form">
+            <input id="log-name" type="text" placeholder="Имя"/>
+            <input id="log-pass" type="password" placeholder="Пароль"/>
+            <button type="button" onclick="logIn()">Войти</button>
+            <a href="#" onclick="showReg()">Окно регистрации</a>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
