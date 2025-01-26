@@ -1,20 +1,18 @@
 "# ragemp-authentification"
 
-Technology Stack:  
-
-node.js  
-node_modules:  
-2.1"mysql2": "^2.3.3"  
-2.2"bcrypt": "^5.0.1"  
-HTML (postscript for users)  
-SQL  
-
-Features:  
+Стек технологий:  
+  1. node.js  
+  2. node_modules:  
+    2.1"mysql2": "^2.3.3"  
+    2.2"bcrypt": "^5.0.1"  
+  3. HTML (p.s. Для демонстрации)  
+  4. SQL  
   
-asynchronous creation of an "offline library"  
-MySQL pool  
-Asynchronous connections (Structure: asynchronous () => waiting)  
-Catching fish (instructions: try, catch)  
-Cryptographic protection of information.  
-hashing passwords, saving data in a database (registration)  
-checking the availability of entered data using the bcrypt.compare method (authorization)  
+Особенности:  
+  1. async событие "Отложенной инициализации"  
+  2. MySQL pool  
+  3. Асинхронные функции (Конструкции: async () => await)  
+  4. Отлов ошибок (Конструкции: try.catch)  
+  5. Криптографическая защита информации.  
+  6. хэширование паролей, сохранение данных в БД (регистрация)  
+  7. проверка подлинности введенных данных методом bcrypt.compare (авторизация)
